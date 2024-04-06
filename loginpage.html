@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="cssfile.css">
+</head>
+
+<script>
+function valid()
+{
+var username=document.getElementById("name").value;
+var password=document.getElementById("pass").value;
+if(username=='SSWCOE' && password=='sswcoe6938')
+{
+  alert("Login Successfully")
+ }
+ else
+ {
+  alert("Wrong Username or Password")
+ }
+}
+</script>
+
+<body background-image="a3.jpg">
+<br><br><br>
+<canvas>
+<center> <h1><font color="White">Login Page </font></h1>
+
+<form action="Dept.html" method="post" name="myform" onsubmit="return valid()">
+
+<div class="mainContainer">
+<br>
+<label>Username</label><br>
+
+<input id="name" type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter Username" required>
+<br><br>
+<label>Password</label><br>
+
+<input id="name" type="password" placeholder="Enter Password" required>
+<br><br>
+
+<button type="submit">Login</button>&nbsp;&nbsp;
+<button type="reset">Reset</button>
+</div>
+</center>
+</form>
+</body>
+</html>

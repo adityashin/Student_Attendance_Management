@@ -1,0 +1,75 @@
+
+    body {
+        margin: 0;
+        padding: 20px;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    *{
+        box-sizing: border-box;
+    }
+
+    .ed{
+        width: 20%;
+        align-items: center;
+    }
+
+    .ed1{
+        font-size: 20px;
+    }
+
+    .heading{
+        color: rgb(36, 137, 184);
+    }
+    .table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .table td,.table th{
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .table th{
+        background-color: blueviolet;
+        color: #ffffff;
+    }
+
+    .but1{
+        border: none;
+        border-radius: 13px;
+        height: 30px;
+        width: 70px;
+        color: red;
+        background: transparent;
+    }
+
+    .but{
+        border: none;
+        border-radius: 13px;
+        height: 30px;
+        color: rgb(41, 228, 41);
+        width: 70px;
+        transition: all 0.1s ease;
+        background: transparent;
+    }
+
+    button:active{
+        transform: scale(0.96);
+    }
+
+    .sub{
+        background-color: rgb(63, 240, 63);
+        border: none;
+        width: 170px;
+        height: 40px;
+        border-radius: 20px;
+        color: rgba(255, 255, 255, 0.836);
+        font-size: 19px;
+        transition: all 0.2s ease;
+    }
+
+
+
